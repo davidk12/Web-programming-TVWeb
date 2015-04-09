@@ -1,0 +1,82 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<h2>@ViewBag.Message</h2>
+
+	<iframe title="YouTube video player" width="480" height="390" src="http://www.youtube.com/embed/yOmQ-Ich078" frameborder="0" allowfullscreen></iframe>  
+    <!-- -NpCQA1cHaY-->
+    <!-- yOmQ-Ich078-->
+	@using ( Html.BeginForm( ) )
+	{
+        <div id ="comment_list">
+		    <ul class="commentList" id="commentList">
+                
+
+		    @foreach (var comment in (Model.comments))
+		    {
+            
+			    <li class="yolo">
+				    <a href="http://www.ru.is"><img src='@Url.Content("~/Content/Images/User.jpg")' alt="Notandi" /></a>
+				    <div class="commentBody">
+					    <a href="http://www.ru.is">@comment.UserName </a>
+					    <span>@comment.CommentText </span>
+					    <div> 
+						    <abbr title='@comment.CommentDate '>@comment.CommentDate.ToString( "dd. MMMM HH:mm" )</abbr>
+                        
+                            <div class ="like_div" id = "like_@(comment.ID)">
+                                @{
+                                int like_counter = 0;
+                                    foreach (var like in Model.likes)
+                                    {
+                                        int com_id = Convert.ToInt32((like.CommentID));
+                                        int like_id = Convert.ToInt32((comment.ID));
+                                        //bool crap = false;
+                                        //crap = like.CommentID == comment.ID;                       
+                                        {
+                                             if (com_id == like_id)
+                                            {
+                                                like_counter += 1;
+                                                <p class ="like_span"> @like.UserName </p> 
+                                            
+                                            
+
+                                        
+                                            }
+                                         }
+                                    }
+                                
+                                }
+                                <!--<img src='@Url.Content("~/Content/Images/arrow.png")' id ="arrow_img" alt="Notandi" />-->
+                            
+                            </div>
+                            <a href="javascript:void(0)" class="commentLike" id="@comment.ID">Like Dis</a> 
+                            <span class="like_count" id ="count_@(comment.ID)" >
+                                @{
+                                    if (like_counter > 0)
+                                    {
+                                        <img src='@Url.Content("~/Content/Images/thumbs.png")' id ="arrow_img" alt="Notandi" />
+                                        <span id ="like_counter">@like_counter</span>
+                                    }
+                                }
+
+                            </span>
+						
+                        
+					    </div>
+				    </div>
+                 </li>
+             }
+                <li class="commentAdd"> 
+				    <textarea id="CommentText" name="CommentText" rows="3" cols="20" ></textarea>   
+				    <label>
+					    <input type="button" value="Comment" id="btnSubmit" />
+				    </label>
+                    <!--<img src="/Content/Images/ajax-loader.gif" style="display: none; float:right;" id="waitingMessage"
+                        alt="Waiting for a reply..." />-->
+				    <!--@Html.ValidationMessage( "CommentText" )-->
+			    </li>
+			    
+           </ul>
+       </div>
+ }

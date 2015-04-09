@@ -1,0 +1,35 @@
+C:\Users\dabs\Documents\HR\Kennsla\2012\VEFF\Verkefni\Vika11\TVWeb.3\TVWeb\TVWeb\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\dabs\Documents\HR\Kennsla\2012\VEFF\Verkefni\Vika11\TVWeb.3\TVWeb\TVWeb\bin\TVWeb.dll
+C:\Users\dabs\Documents\HR\Kennsla\2012\VEFF\Verkefni\Vika11\TVWeb.3\TVWeb\TVWeb\bin\TVWeb.pdb
+C:\Users\dabs\Documents\HR\Kennsla\2012\VEFF\Verkefni\Vika11\TVWeb.3\TVWeb\TVWeb\bin\EntityFramework.dll
+C:\Users\dabs\Documents\HR\Kennsla\2012\VEFF\Verkefni\Vika11\TVWeb.3\TVWeb\TVWeb\bin\EntityFramework.xml
+C:\Users\dabs\Documents\HR\Kennsla\2012\VEFF\Verkefni\Vika11\TVWeb.3\TVWeb\TVWeb\obj\Debug\TVWeb.dll
+C:\Users\dabs\Documents\HR\Kennsla\2012\VEFF\Verkefni\Vika11\TVWeb.3\TVWeb\TVWeb\obj\Debug\TVWeb.pdb
+C:\Users\dabbi12\Documents\Visual Studio 2012\Projects\TVWeb\TVWeb\obj\Debug\TVWeb.csprojResolveAssemblyReference.cache
+C:\Users\dabbi12\Documents\Visual Studio 2012\Projects\TVWeb\TVWeb\bin\TVWeb.dll
+C:\Users\dabbi12\Documents\Visual Studio 2012\Projects\TVWeb\TVWeb\bin\TVWeb.pdb
+C:\Users\dabbi12\Documents\Visual Studio 2012\Projects\TVWeb\TVWeb\bin\EntityFramework.dll
+C:\Users\dabbi12\Documents\Visual Studio 2012\Projects\TVWeb\TVWeb\bin\EntityFramework.xml
+C:\Users\dabbi12\Documents\Visual Studio 2012\Projects\TVWeb\TVWeb\obj\Debug\TVWeb.dll
+C:\Users\dabbi12\Documents\Visual Studio 2012\Projects\TVWeb\TVWeb\obj\Debug\TVWeb.pdb
+C:\Users\Unnar\Desktop\TVWeb\TVWeb\bin\TVWeb.dll
+C:\Users\Unnar\Desktop\TVWeb\TVWeb\bin\TVWeb.pdb
+C:\Users\Unnar\Desktop\TVWeb\TVWeb\bin\EntityFramework.dll
+C:\Users\Unnar\Desktop\TVWeb\TVWeb\bin\EntityFramework.xml
+C:\Users\Unnar\Desktop\TVWeb\TVWeb\obj\Debug\TVWeb.csprojResolveAssemblyReference.cache
+C:\Users\Unnar\Desktop\TVWeb\TVWeb\obj\Debug\TVWeb.dll
+C:\Users\Unnar\Desktop\TVWeb\TVWeb\obj\Debug\TVWeb.pdb
+C:\Users\Smidgens\Documents\TVWeb\TVWeb\bin\TVWeb.dll
+C:\Users\Smidgens\Documents\TVWeb\TVWeb\bin\TVWeb.pdb
+C:\Users\Smidgens\Documents\TVWeb\TVWeb\bin\EntityFramework.dll
+C:\Users\Smidgens\Documents\TVWeb\TVWeb\bin\EntityFramework.xml
+C:\Users\Smidgens\Documents\TVWeb\TVWeb\obj\Debug\TVWeb.csprojResolveAssemblyReference.cache
+C:\Users\Smidgens\Documents\TVWeb\TVWeb\obj\Debug\TVWeb.dll
+C:\Users\Smidgens\Documents\TVWeb\TVWeb\obj\Debug\TVWeb.pdb
+C:\Users\Unnar\Documents\TVWeb\TVWeb\bin\TVWeb.dll
+C:\Users\Unnar\Documents\TVWeb\TVWeb\bin\TVWeb.pdb
+C:\Users\Unnar\Documents\TVWeb\TVWeb\bin\EntityFramework.dll
+C:\Users\Unnar\Documents\TVWeb\TVWeb\bin\EntityFramework.xml
+C:\Users\Unnar\Documents\TVWeb\TVWeb\obj\Debug\TVWeb.csprojResolveAssemblyReference.cache
+C:\Users\Unnar\Documents\TVWeb\TVWeb\obj\Debug\TVWeb.dll
+C:\Users\Unnar\Documents\TVWeb\TVWeb\obj\Debug\TVWeb.pdb

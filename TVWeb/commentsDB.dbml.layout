@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="commentsDB">
+  <DataContextMoniker Name="/commentsDBDataContext" />
+  <nestedChildShapes>
+    <classShape Id="26717509-e256-4405-b57d-7e302b96fd60" absoluteBounds="1.625, 2.125, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/commentsDBDataContext/Comment" />
+      <nestedChildShapes>
+        <elementListCompartment Id="79aa7c50-47af-4410-a8f5-74fe0eee2ccc" absoluteBounds="1.6400000000000001, 2.585, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f99e9279-0dba-451e-a3ee-769d2bab5d9a" absoluteBounds="0.5, 0.5, 2, 1.3862939453125">
+      <DataClassMoniker Name="/commentsDBDataContext/Like" />
+      <nestedChildShapes>
+        <elementListCompartment Id="48f1800e-c0dc-4de1-86b3-94a7997ae3d4" absoluteBounds="0.51500000000000012, 0.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.0625 : 2.125); (2.0625 : 1.8862939453125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/commentsDBDataContext/Comment/Comment_Like" />
+      <nodes>
+        <classShapeMoniker Id="26717509-e256-4405-b57d-7e302b96fd60" />
+        <classShapeMoniker Id="f99e9279-0dba-451e-a3ee-769d2bab5d9a" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
